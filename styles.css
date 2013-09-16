@@ -17,6 +17,7 @@ Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
+/* elements for body of the index page */
 
 body {
 	margin-top: 50px;
@@ -38,13 +39,16 @@ h1, h2, h3 {
 
 h1 {
 	letter-spacing: -1px;
-	font-size: 32px;
+	font-size: 28px;
+	padding-left:120px;
+    
     
 }
 
 h2 {
-	font-size: 23px;
-    font-family: Century Gothic
+	font-size: 22px;
+    font-family: Century Gothic;
+    padding-left:120px;
 }
 
 p, ul, ol {
@@ -80,31 +84,10 @@ img.right {
 	margin-left: 15px;
 }
 
-/* Form */
 
-form {
-	margin: 0;
-	padding: 0;
-}
-
-fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-legend {
-	display: none;
-}
-
-input, textarea, select {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	color: #333333;
-}
 
 #banner {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 	background: url(images/img02.jpg) no-repeat left top;
 	height: 230px;
@@ -113,7 +96,7 @@ input, textarea, select {
 /* Header */
 
 #header {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 	height: 50px;
 	background: url(images/img01.gif) no-repeat left top;
@@ -123,48 +106,16 @@ input, textarea, select {
 
 #menu {
 	float: left;
-	width: 800px;
+	width: 900px;
 	height: 50px;
 	background: url(images/img03.gif) no-repeat left top;
 }
 
-#menu ul {
-	margin: 0;
-	padding: 0px 0 0 10px;
-	list-style: none;
-	line-height: normal;
-}
-
-#menu li {
-	display: block;
-	float: left;
-}
-
-#menu a {
-	display: block;
-	float: left;
-	margin-right: 1px;
-	padding: 20px 15px 15px 15px;
-	text-decoration: none;
-	font-size: 12px;
-	font-weight: bold;
-	color: #FFFFFF;
-}
-
-#menu a:hover { 
-	background: #AA330F url(images/img04.gif) repeat-x;
-	color: #FFFFFF;
-}
-
-#menu .current_page_item a {
-	background: #AA330F url(images/img04.gif) repeat-x;
-	color: #000000;
-}
 
 /** LOGO */
 
 #logo {
-	width: 800px;
+	width: 900px;
 	height: 60px;
 	margin: 0 auto;
 	padding: 20px 0 0 30px;
@@ -223,163 +174,12 @@ input, textarea, select {
 	
 }
 
-/* Post */
-
-.post {
-	padding: 0px 0px 20px 0px;
-	margin-bottom: 20px;
-}
-
-.post .title {
-	margin-bottom: 20px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	border-left: 8px solid #B8120B;
-}
-
-.post h1 {
-	padding: 0px 0 0 0px;
-	font-size: 24px;
-	color: #FFFFFF;
-}
-
-.post h2 {
-	padding: 0px 0 0 0px;
-	font-size: 22px;
-	color: #FFFFFF;
-}
-
-.post .entry {
-}
-
-.post .meta {
-	padding: 0px 15px 30px 0px;
-}
-
-.post .meta p {
-	margin: 0;
-	padding-top: 15px;
-	line-height: normal;
-	color: #FFFFFF;
-}
-
-.post .meta .links {
-	float: left;
-
-}
-.post .byline {
-	border-left: 8px solid #B8120B;
-	margin-top: -20px;
-	padding-left: 10px;
-	padding-bottom: 5px;
-	margin-bottom: 20px;
-	font-size: 10px;
-	color: #897B7B;
-}
-
-.post .meta .links {
-	float: left;
-}
-
-.post .meta .more {
-}
-
-.post .meta .comments {
-}
-
-.post .meta b {
-	display: none;
-}
-
-
-/* Sidebar */
-
-#sidebar {
-	width: 210px;
-	float: right;
-	margin: 0;
-	padding: 0;
-}
-
-#sidebar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#sidebar li {
-	margin-bottom: 40px;
-}
-
-#sidebar li ul {
-}
-
-#sidebar li li {
-	margin: 0;
-	padding-left: 20px;
-}
-
-#sidebar h2 {
-	width: 250px;
-	margin-bottom: 10px;
-	padding-left: 10px;
-	border-left: 8px solid #B8120B;
-	font-size: 20px;
-	color: #FFFFFF;
-}
-
-/* Search */
-
-#search {
-
-}
-
-#search h2 {
-	margin-bottom: 20px;
-}
-
-#s {
-	width: 100px;
-	margin-right: 5px;
-	margin-left: 20px;
-	padding: 2px;
-}
-
-#x {
-}
-
-/* Boxes */
-
-.box1 {
-	padding: 20px;
-}
-
-.box2 {
-	color: #BABABA;
-}
-
-.box2 h2 {
-	margin-bottom: 15px;
-	font-size: 16px;
-	color: #FFFFFF;
-}
-
-.box2 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
-	color: #EDEDED;
-}
-
 /* Footer */
 #footer-wrap {
 }
 
 #footer {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 	padding: 10px 0 10px 0;
 	background: url(images/img03.gif) no-repeat;
@@ -403,19 +203,22 @@ html>body #footer {
 	font-weight: normal;
 	color: #FFFFFF;
 }
-
+/* table for information in 3 columns */
 table {
-  width: 100%;
-  border: 1px solid #000;
+  width: 900px;
+  border: 0px solid #000;
+  padding-left:120px;
 }
-th.from {
-  width: 15%
-}
-
-th.date {
-  width: 25%
+th.name {
+  width: 15%;
 }
 
-th.subject {
-  width: 60%; /* Not necessary, since only 70% width remains */
+th.like {
+  width: 30%;
+  text-align:justify;
 }
+/*all 3 colums divided by required percentage */
+th.bio {
+  width: 55%; /* not neccary to give the last percentage */
+}
+

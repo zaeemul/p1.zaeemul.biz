@@ -6,7 +6,7 @@
     <meta name="dcterms.created" content="Sun, 15 Sep 2013 01:03:30 GMT">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>first</title>
+    <title>My First Project in CSCI E-15</title>
     
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <!--[if IE]>
@@ -14,7 +14,7 @@
     <![endif]-->
   </head>
   <body>
-  <div id="header">
+  <div id="header"></div>
   
 <h1>Welcome to My Web Page for Dynamic Web Development </h1>
 <p>
@@ -25,21 +25,22 @@
     <table>
   <thead>
     <tr>
-      <th class="from">My Name</th>
-      <th class="subject">My Biography</th>
-      <th class="date">Editors that I like</th>
+      <th class="name">My Name</th>
+      <th class="bio">My Biography</th>
+      <th class="like">Editors that I like</th>
     </tr>
   </thead>
+<!-- table with 3 columns to show required information --> 
   <tbody>
     <tr>
       <td>Zaeemul Haque</td>
-      <td>I am taking this course as elective as previously I took web development, I felt that I should take some
-kind of challenging Web developing courses so I decided that I take this one. I am pursuing MS in Information Management 
+      <td>I am taking this course as elective, previously I took web development. I felt that I should have taken some
+challenging Web developing courses so I decided that I should take this one. I am pursuing MS in Information Management 
 
 Systems.<br>I got my Bachelor's degree from the University of Houston and Diploma in Database Development and Administratio from 
 
-Herzing College. I am working as a Database Administration at Automatic Data Process in Toronto.</td>
-      <td>Sublime,CoffeeCup,Eclipse</td>
+Herzing College. I am working as a Database Administration at Automatic Data Process for last 6 years in Toronto.</td>
+      <td>Sublime,CoffeeCup</td>
     </tr>
   </tbody>
 </table>
